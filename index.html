@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="row m-0 justify-content-center"
+      style="
+        background: linear-gradient(to bottom left, #0033cc 0%, #3399ff 75%);
+      "
+    >
+      <h1 class="text-center text-light text-shadow">Registration Form</h1>
+      <div class="col-10">
+        <form
+          class="py-3 px-5 my-5 rounded-2"
+          style="background: rgb(255, 255, 255, 0.3)"
+        >
+          <div class="row mt-5">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example1"
+                  >Select City</label
+                >
+                <select
+                  type="text"
+                  id="city"
+                  class="form-control"
+                  style="color: rgb(54, 54, 54)"
+                >
+                  <option disabled selected>Select your option</option>
+                  <option value="Karachi">Karachi</option>
+                  <option value="Lahore">Lahore</option>
+                  <option value="Islamabad">Islamabad</option>
+                  <option value="Faisalabad">Faisalabad</option>
+                  <option value="Multan">Multan</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example2"
+                  >Select course or event</label
+                >
+                <select
+                  type="text"
+                  id="course"
+                  class="form-control"
+                  style="color: rgb(54, 54, 54)"
+                >
+                  <option disabled selected>Select course</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Front end">Front End</option>
+                  <option value="Back End">Back End</option>
+                  <option value="Graphic Designing">Graphic Designing</option>
+                  <option value="Content Writing">Content Writing</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example1">Full name</label>
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="Full name"
+                  type="text"
+                  id="fullname"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example2"
+                  >Father name</label
+                >
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="Father name"
+                  type="text"
+                  id="fathername"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example1">Email</label>
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="Email"
+                  type="text"
+                  class="form-control"
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example2">Phone</label>
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="Phone"
+                  type="text"
+                  id="phone"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example1">CNIC</label>
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="CNIC"
+                  type="text"
+                  id="cnic"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example2"
+                  >Father CNIC (optional)</label
+                >
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="Father CNIC (optional)"
+                  type="text"
+                  id="fatherCnic"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example1"
+                  >Date of birth</label
+                >
+                <input
+                  style="color: rgb(54, 54, 54)"
+                  placeholder="dd/mm/yyyy"
+                  type="date"
+                  id="dateOfBirth"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <label class="form-label" for="form6Example2"
+                  >Select gender</label
+                >
+                <select
+                  type="text"
+                  id="gender"
+                  class="form-control"
+                  style="color: rgb(54, 54, 54)"
+                >
+                  <option disabled selected>Select gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div data-mdb-input-init class="form-outline mt-4">
+            <label class="form-label" for="form6Example3">Address</label>
+            <input
+              style="color: rgb(54, 54, 54)"
+              placeholder="Address"
+              type="text"
+              id="address"
+              class="form-control"
+            />
+          </div>
+
+          <div data-mdb-input-init class="form-outline mt-4">
+            <label class="form-label" for="form6Example3"
+              >Last qualification</label
+            >
+            <input
+              style="color: rgb(54, 54, 54)"
+              placeholder="Last qualification"
+              type="text"
+              id="qualification"
+              class="form-control"
+            />
+          </div>
+
+      
+          <div data-mdb-input-init class="form-outline mt-4">
+            <label class="form-label" for="form6Example3"
+              >Do you have a Laptop?</label
+            >
+            <select
+            type="text"
+            id="laptop"
+            class="form-control"
+            style="color: rgb(54, 54, 54)"
+          >
+            <option disabled selected>Do you have a Laptop?</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+          </div>
+
+          <div data-mdb-input-init class="form-outline mt-4">
+            <label for="img">Picture</label>
+            <input
+              type="file"
+              id="picture"
+              name="img"
+              class="form-control"
+              accept="image/*"
+            />
+          </div>
+
+          <ol class="my-4">
+            <li>
+              hereby, colemely declare that the data and facts mentioned herein
+              are true and correct to the best of my knowledge. Further, I will
+              abide by all the established and future regulations and policies
+              of SWIT
+            </li>
+            <li>
+              I hereby accept the responsibilities of good conduct and guarantee
+              that will not be involved in any other acttty political or ethical
+              but learning during my stay in the program
+            </li>
+            <li>
+              Defiance will render my admission canceled at any point in time.
+            </li>
+            <li>
+              Upon completion of the course, I will complete the required
+              project by SWIT
+            </li>
+            <li>
+              It's mandatory for female students to wear aboya/hjabin the class
+            </li>
+          </ol>
+
+          <button
+            type="button"
+            id="btn"
+            class="btn btn-primary btn-block"
+            onclick="add()"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
